@@ -1,0 +1,55 @@
+{
+  "name": "newsmind-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vximoraes/newsmind-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vximoraes/newsmind-agent/issues"
+  },
+  "homepage": "https://github.com/vximoraes/newsmind-agent#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@graphql-tools/schema": "^10.0.23",
+    "@graphql-yoga/node": "^3.9.1",
+    "@langchain/community": "^0.3.40",
+    "@langchain/core": "^0.3.44",
+    "@pinecone-database/pinecone": "^5.1.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "chromadb": "^2.2.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "csv-parser": "^3.2.0",
+    "csv-stringify": "^6.5.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "graphql": "^16.10.0",
+    "graphql-yoga": "^5.13.3",
+    "kafkajs": "^2.2.4",
+    "langchain": "^0.3.21",
+    "langfuse-node": "^3.37.1",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.1.0"
+  }
+}
